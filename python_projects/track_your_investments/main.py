@@ -1,0 +1,10 @@
+def invest(amount, rate, years):
+    for year in range(1, years + 1):
+        amount = amount * (1 + rate)
+        print(f"year {year}: ${amount:,.2f}")
+
+amount = float(input("Enter a principal amount: "))
+rate = float(input("Enter an annual rate of return: "))
+years = int(input("Enter a number of years: "))
+
+invest(amount, rate, years)
