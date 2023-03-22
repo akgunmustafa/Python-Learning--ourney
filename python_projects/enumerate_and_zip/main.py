@@ -1,5 +1,7 @@
 # Enumerate
 
+a=1
+
 names = ['Tyler', 'Dias', 'Cory', 'Cameron']
 for i, e in enumerate(names, start=3):
     print(i, "indexing : ", e)
