@@ -49,3 +49,10 @@ se2.code_in_language("C++")
 
 print(se1.entry_salary(20))
 print(SoftwareEngineer.entry_salary(24))
+
+# Recap:
+# instance method(self)
+# can take arguments and can return values
+# special "dunder" method (__str__ and __eq__)
+# @staticmethod
+
