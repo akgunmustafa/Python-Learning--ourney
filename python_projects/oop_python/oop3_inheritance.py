@@ -57,3 +57,10 @@ def motivate_employees(employees):
 
 
 motivate_employees(employees)
+
+
+# Recap:
+# inheritance: ChildClass (BaseClass)
+# inherit, extend, override
+# super().__init__() /bu sekilde child class ta override yapabiliriz Baseclass ta bulunan aynı tanımlamaları...
+# polymorphism
