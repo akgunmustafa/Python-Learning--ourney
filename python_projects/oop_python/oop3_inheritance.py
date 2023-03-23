@@ -44,7 +44,17 @@ de.draw()
 
 print("-------------")
 
+# Polymorphism
 
+employees = [SoftwareEngineer("Mustafa", 27, 6000, "Juniour"),
+             SoftwareEngineer("Canan", 26, 7500, "Senior"),
+             Designer("Cansu", 22, 7000 )]
+
+def motivate_employees(employees):
+    for employee in employees:
+        employee.work()
+
+motivate_employees(employees)
 
 
 
