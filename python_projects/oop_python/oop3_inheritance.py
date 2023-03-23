@@ -30,14 +30,14 @@ class Designer(Employee):
         print(f"{self.name} is drawing ...")
 
 
-se1 = SoftwareEngineer("Mustafa", 27, 6000, "Juniour")
+se1 = SoftwareEngineer("Mustafa", 27, 6000, "Junior")
 print(se1.name, se1.age, se1.level, se1.salary, "$")
 se1.work()
 
 se2 = SoftwareEngineer("Canan", 26, 7500, "Senior")
 se2.debug()
 
-de = Designer("Cansu", 22, 7000 )
+de = Designer("Cansu", 22, 7000)
 print(de.name, de.age)
 de.work()
 de.draw()
@@ -46,15 +46,14 @@ print("-------------")
 
 # Polymorphism
 
-employees = [SoftwareEngineer("Mustafa", 27, 6000, "Juniour"),
+employees = [SoftwareEngineer("Mustafa", 27, 6000, "Junior"),
              SoftwareEngineer("Canan", 26, 7500, "Senior"),
-             Designer("Cansu", 22, 7000 )]
+             Designer("Cansu", 22, 7000)]
+
 
 def motivate_employees(employees):
     for employee in employees:
         employee.work()
 
+
 motivate_employees(employees)
-
-
-
