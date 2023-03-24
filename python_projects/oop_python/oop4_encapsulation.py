@@ -1,14 +1,12 @@
-
-
 class SoftwareEngineer:
     def __init__(self, name, age):
-        self.name=name
-        self.age=age
-        self._salary=None
-        self._num_bugs_solved=0
+        self.name = name
+        self.age = age
+        self._salary = None
+        self._num_bugs_solved = 0
 
     def code(self):
-        self._num_bugs_solved +=1
+        self._num_bugs_solved += 1
 
     # getter
     def get_salary(self):
@@ -20,14 +18,15 @@ class SoftwareEngineer:
         self._salary = self._calculate_salary(base_value)
 
     def _calculate_salary(self, base_value):
-        if self._num_bugs_solved <10:
+        if self._num_bugs_solved < 10:
             return base_value
-        if self._num_bugs_solved<100:
-            return base_value*2
+        if self._num_bugs_solved < 100:
+            return base_value * 2
         return base_value * 3
 
+
 se = SoftwareEngineer("Mustafa", 25)
-print(se.age, se.name,)
+print(se.age, se.name, )
 
 for i in range(101):
     se.code()
