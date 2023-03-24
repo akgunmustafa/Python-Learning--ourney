@@ -1,4 +1,7 @@
 class SoftwareEngineer:
+    def __init__(self):
+        self._salary = None
+
     def __int__(self):
         self._salary = None
 
