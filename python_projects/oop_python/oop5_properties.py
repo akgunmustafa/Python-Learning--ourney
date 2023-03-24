@@ -25,3 +25,12 @@ se.salary = 6000
 print(se.salary)
 # del se.salary
 # print(se.salary)
+
+# Recap
+# encapsulation
+# abstraction
+# public, private
+# _foo(), _x (private)
+# getter / setter
+# getter -> @property
+# setter -> @x.setter
