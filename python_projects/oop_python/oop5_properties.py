@@ -1,8 +1,6 @@
-
-
 class SoftwareEngineer:
     def __int__(self):
-        self._salary=None
+        self._salary = None
 
     @property
     def salary(self):
@@ -17,9 +15,10 @@ class SoftwareEngineer:
     # def salary(self):
     #    del self._salary
 
+
 se = SoftwareEngineer()
 
-se.salary=6000
+se.salary = 6000
 print(se.salary)
 # del se.salary
 # print(se.salary)
